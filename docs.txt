@@ -1,0 +1,103 @@
+===================================================================================
+
+prediction_app
+
+python3 -m venv prediction_app_venv
+
+source prediction_app_venv/bin/activate
+
+pip install -r requirements.txt
+
+python -m pip install --upgrade pip setuptools wheel
+
+python3 main.py
+
+http://localhost:8000/
+
+===================================================================================
+
+sudo systemctl stop prediction_app.service
+sudo systemctl disable prediction_app.service
+sudo rm /etc/systemd/system/prediction_app.service
+sudo systemctl daemon-reload
+
+sudo nano /etc/systemd/system/prediction_app.service
+
+[Unit]
+Description=Prediction RAG API (Auto Reload on Code Changes)
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/var/www/html/prediction_app
+Environment="PATH=/var/www/html/prediction_app/data_warehouse_venv/bin"
+ExecStart=/var/www/html/prediction_app/data_warehouse_venv/bin/python3 main.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+sudo systemctl daemon-reload
+sudo systemctl enable prediction_app.service
+sudo systemctl start prediction_app.service
+sudo systemctl status prediction_app.service
+
+sudo systemctl daemon-reload
+sudo systemctl restart prediction_app.service
+
+journalctl -u prediction_app.service -n 50 -f
+
+===================================================================================
+
+http://localhost:8000/cron/get_upcoming_matches_list
+http://localhost:8000/cron/get_upcoming_matches_cron
+http://localhost:8000/cron/get_upcoming_matches_embeding
+
+http://localhost:8000/admin/add_update_match_description
+
+http://localhost:8000/user/handle_user_question
+
+===================================================================================
+
+response = {
+    "responseCode": "400", //400,500,200
+    "responseMessage" : "Hi",
+    "responseData" : {}
+}
+
+# fastapi==0.110.2
+# uvicorn==0.29.0
+# pymongo==4.6.3
+# python-dotenv==1.0.1
+# sqlalchemy==2.0.30
+# pymysql==1.1.0
+# jinja2==3.1.3
+# requests==2.31.0
+# pika==1.3.2
+# tenacity==8.5.0
+# openai==1.99.9
+
+fastapi==0.110.2
+uvicorn==0.29.0
+pymongo==4.6.3
+python-dotenv==1.0.1
+sqlalchemy==2.0.30
+pymysql==1.1.0
+jinja2==3.1.3
+requests==2.31.0
+pika==1.3.2
+tenacity==8.5.0
+openai==1.99.9
+langchain==0.1.15
+transformers==4.34.0
+torch==2.3.1
+numpy==1.24.4
+scipy==1.10.1
+qdrant-client==1.1.0
+packaging==23.2
+huggingface-hub==0.17.4
+pydantic==1.10.12
+urllib3==1.26.16
+
+pip freeze > requirements.txt
+
