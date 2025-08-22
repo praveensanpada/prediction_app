@@ -1,0 +1,28 @@
+{
+    "description_type": "match_details",
+    "description_data": {
+        "match_id": "Unique identifier for the match",
+        "away_team": "Short code for away team",
+        "away_team_id": "Unique ID of away team",
+        "away_team_name": "Full name of away team",
+        "ground_name": "Stadium or ground where match played",
+        "home_team": "Short code for home team",
+        "home_team_id": "Unique ID of home team",
+        "home_team_name": "Full name of home team",
+        "league_id": "Unique identifier of league",
+        "league_name": "Full name of league",
+        "lineup_announce": "Indicates if match lineup is released - 1 means announced, 0 means not yet",
+        "match_format": "Indicates match type - 1 = ODI, 2 = Test, 3 = T20, 4 = T10",
+        "match_scheduled_date": "Scheduled start date and time",
+        "match_title": "Title or round of the match",
+        "home_team_squad": "List of players in home team squads",
+        "away_team_squad": "List of players in away team squads",
+        "venue_id": "Unique identifier of match venue",
+        "team_id": "Team ID player belongs to",
+        "player_id": "Unique identifier of player",
+        "full_name": "Player’s complete official name",
+        "nick_name": "Short or commonly used name",
+        "position": "Player’s role (BAT, BOW, AR, WK)",
+        "last_match_played": "Indicates if player played previous match - 1 = Played, 0 = Not played"
+    }
+}

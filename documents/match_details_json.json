@@ -1,0 +1,332 @@
+{
+    "_id": "68a42345247a28a4a2626bfd",
+    "match_id": "91876",
+    "away_team": "BB",
+    "away_team_id": "1242465",
+    "away_team_name": "Bhimavaram Bulls",
+    "ground_name": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium",
+    "home_team": "KK",
+    "home_team_id": "1242466",
+    "home_team_name": "Kakinada Kings",
+    "league_id": "4407",
+    "league_name": "Andhra T20 League",
+    "lineup_announce": "0",
+    "match_format": "3",
+    "match_scheduled_date": "2025-08-19 08:00:00",
+    "match_title": "Match 20",
+    "matche_squad": [
+        {
+            "team_id": "1242466",
+            "player_id": "53855",
+            "full_name": "Kona Srikar Bharat",
+            "nick_name": "KS Bharat",
+            "position": "WK",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242465",
+            "player_id": "17829102",
+            "full_name": "Nimmala Himakar",
+            "nick_name": "N Himakar",
+            "position": "AR",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242466",
+            "player_id": "117920",
+            "full_name": "Pitta Arjun Tendulkar",
+            "nick_name": "PA Tendulkar",
+            "position": "BAT",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242465",
+            "player_id": "17849383",
+            "full_name": "Revanth Reddy",
+            "nick_name": "R Reddy",
+            "position": "WK",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242465",
+            "player_id": "17829121",
+            "full_name": "Thota Sravan",
+            "nick_name": "TVS Sravan",
+            "position": "BAT",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242466",
+            "player_id": "103965",
+            "full_name": "KP Sai Rahul",
+            "nick_name": "KS Rahul",
+            "position": "BAT",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242465",
+            "player_id": "17871423",
+            "full_name": "Maramreddy Hemanth Reddy",
+            "nick_name": "MH Reddy",
+            "position": "AR",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242466",
+            "player_id": "117909",
+            "full_name": "Adivishnu Surya",
+            "nick_name": "A Surya",
+            "position": "BAT",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242466",
+            "player_id": "96104",
+            "full_name": "Pinninti Tapaswi",
+            "nick_name": "P Tapaswi",
+            "position": "BOW",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242465",
+            "player_id": "112862",
+            "full_name": "Thanneru Vamsi Krishna",
+            "nick_name": "TV Krishna",
+            "position": "BAT",
+            "last_match_played": "0"
+        },
+        {
+            "team_id": "1242465",
+            "player_id": "17871426",
+            "full_name": "Allareddi Teja Reddy",
+            "nick_name": "A Reddy",
+            "position": "BAT",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242466",
+            "player_id": "94009",
+            "full_name": "Manish Golamaru",
+            "nick_name": "M Golamaru",
+            "position": "AR",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242465",
+            "player_id": "17829106",
+            "full_name": "Muvvala Yuvan",
+            "nick_name": "M Yuvan",
+            "position": "AR",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242466",
+            "player_id": "111872",
+            "full_name": "Lekhaz Reddy",
+            "nick_name": "ML Reddy",
+            "position": "WK",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242465",
+            "player_id": "17849380",
+            "full_name": "Bhupathiraju Munish Verma",
+            "nick_name": "B Munish Verma",
+            "position": "AR",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242466",
+            "player_id": "55714",
+            "full_name": "Sirla Srinivas",
+            "nick_name": "S Srinivas",
+            "position": "AR",
+            "last_match_played": "0"
+        },
+        {
+            "team_id": "1242466",
+            "player_id": "117875",
+            "full_name": "Mopada Ravikiran",
+            "nick_name": "M Ravikiran",
+            "position": "BAT",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242465",
+            "player_id": "117888",
+            "full_name": "Bendalam Satvik",
+            "nick_name": "B Satvik",
+            "position": "BAT",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242465",
+            "player_id": "17829111",
+            "full_name": "Pinninti Tejaswi",
+            "nick_name": "P Tejaswi",
+            "position": "BOW",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242466",
+            "player_id": "17871220",
+            "full_name": "SK Kamaruddin",
+            "nick_name": "SK Kamaruddin",
+            "position": "AR",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242465",
+            "player_id": "93560",
+            "full_name": "Harishankar Reddy",
+            "nick_name": "MH Reddy",
+            "position": "BOW",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242466",
+            "player_id": "17814273",
+            "full_name": "Kodavandla Sudharsan",
+            "nick_name": "K Sudharsan",
+            "position": "BOW",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242466",
+            "player_id": "17829092",
+            "full_name": "Yarragunta Pramod",
+            "nick_name": "Yarragunta Pramod",
+            "position": "BOW",
+            "last_match_played": "0"
+        },
+        {
+            "team_id": "1242466",
+            "player_id": "103973",
+            "full_name": "Kuntrapakam Prudhviraj",
+            "nick_name": "KN PrudhviRaj",
+            "position": "WK",
+            "last_match_played": "0"
+        },
+        {
+            "team_id": "1242466",
+            "player_id": "104021",
+            "full_name": "Midde Anjaneyulu",
+            "nick_name": "M Anjaneyulu",
+            "position": "BOW",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242465",
+            "player_id": "104366",
+            "full_name": "V. Satyanarayana Penmetsa",
+            "nick_name": "VS Penmetsa",
+            "position": "BOW",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242465",
+            "player_id": "17829099",
+            "full_name": "Chennupati Teja",
+            "nick_name": "CR Teja",
+            "position": "BOW",
+            "last_match_played": "0"
+        },
+        {
+            "team_id": "1242466",
+            "player_id": "17829119",
+            "full_name": "Chagam Reddy",
+            "nick_name": "CRVT Reddy",
+            "position": "BOW",
+            "last_match_played": "0"
+        },
+        {
+            "team_id": "1242466",
+            "player_id": "17849381",
+            "full_name": "P Manikanta Gangadhar",
+            "nick_name": "P Manikanta Gangadhar",
+            "position": "BOW",
+            "last_match_played": "0"
+        },
+        {
+            "team_id": "1242466",
+            "player_id": "17871221",
+            "full_name": "S Bhargav Mahesh",
+            "nick_name": "S Bhargav Mahesh",
+            "position": "BOW",
+            "last_match_played": "0"
+        },
+        {
+            "team_id": "1242466",
+            "player_id": "17871222",
+            "full_name": "Kaki Jayanth",
+            "nick_name": "K Jayanth",
+            "position": "BOW",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242466",
+            "player_id": "17871223",
+            "full_name": "Adabala Lohith",
+            "nick_name": "A Lohith",
+            "position": "BAT",
+            "last_match_played": "0"
+        },
+        {
+            "team_id": "1242465",
+            "player_id": "17871420",
+            "full_name": "Patnala Bhuvaneswar Rao",
+            "nick_name": "P Rao",
+            "position": "BOW",
+            "last_match_played": "0"
+        },
+        {
+            "team_id": "1242465",
+            "player_id": "17871421",
+            "full_name": "Jajula Vishnu Datta",
+            "nick_name": "J Datta",
+            "position": "WK",
+            "last_match_played": "0"
+        },
+        {
+            "team_id": "1242465",
+            "player_id": "17871422",
+            "full_name": "Allur Srivats",
+            "nick_name": "A Srivats",
+            "position": "WK",
+            "last_match_played": "0"
+        },
+        {
+            "team_id": "1242465",
+            "player_id": "17871424",
+            "full_name": "Ommi Bhaswanth Krishna",
+            "nick_name": "O Krishna",
+            "position": "AR",
+            "last_match_played": "0"
+        },
+        {
+            "team_id": "1242465",
+            "player_id": "17871425",
+            "full_name": "Challarapu Siva",
+            "nick_name": "C Siva",
+            "position": "AR",
+            "last_match_played": "1"
+        },
+        {
+            "team_id": "1242465",
+            "player_id": "17871427",
+            "full_name": "KV Kashyap Prakash",
+            "nick_name": "KV Kashyap Prakash",
+            "position": "BAT",
+            "last_match_played": "0"
+        },
+        {
+            "team_id": "1242465",
+            "player_id": "94825",
+            "full_name": "Nitish Kumar Reddy",
+            "nick_name": "N K Reddy",
+            "position": "AR",
+            "last_match_played": "0"
+        }
+    ],
+    "venue_id": "55"
+}
